@@ -1,0 +1,65 @@
+body {
+    background-color: #1c1c1c;
+    color: white;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#smallDisplay {
+    height: 25px;
+    width: 400px;
+    font-size: 25px;
+
+    text-align: right;
+}
+
+#display {
+    height: 75px;
+    width: 400px;
+    font-size: 75px;
+
+    text-align: right;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    margin: 5px 2px;
+
+    font-size: xx-large;
+    background-color: #505050;
+}
+
+.wider {
+    width: 200px;
+    margin: 5px 6px;
+}
+
+.evenWider {
+    width: 300px;
+    background-color: #d4d4d2;
+    margin: 5px 10px;
+}
+
+#buttonSum,
+#buttonAdd,
+#buttonSubtract,
+#buttonDivide,
+#buttonEqual {
+    background-color: #ff9500;
+}
+
+#currentOperator {
+    background-color: #f1ae4fef;
+}

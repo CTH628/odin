@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.selected {
+    border-width: 7px;
+}
+
+#colors {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#yellow, #red, #blue, #white {
+    border: solid black 2px;
+    height: 50px;
+    width: 50px;
+}
+
+#white {
+    background-color: white;
+    width: 75px;
+    font-weight: bolder;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#grid {
+    height: 640px;
+    width: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: white;
+}
+
+.square {
+    border: 1px solid black;
+}
