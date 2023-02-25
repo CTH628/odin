@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(66, 66, 167);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#language {
+    font-size: smaller;
+}
+
